@@ -1,6 +1,7 @@
 @RestResource(urlMapping='/apexSecurityRest')
 global with sharing class ApexSecurityRest {
     @HttpGet
+    
     global static Contact doGet() {
         Id recordId = RestContext.request.params.get('id');
         Contact result;
