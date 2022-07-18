@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:handler name="init" value="{!this}" action="{!c.doinit}" />
+    <aura:attribute name="srcURL" type="string" default="" />
+	<!--<aura:html tag="style">
+        .slds-modal__container {
+        min-width: 80vw;
+        }
+    </aura:html>-->
+    <iframe src="{!v.srcURL}" width="100%" height="700px" scrolling="false"></iframe>
+</aura:component>

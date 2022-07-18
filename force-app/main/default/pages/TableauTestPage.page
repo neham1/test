@@ -1,0 +1,7 @@
+<apex:page standardController="Case" sidebar="false" showHeader="false">
+
+<apex:iframe src="https://www.google.com/custom" width="100%" height="700px" scrolling="false"></apex:iframe>
+height="1110px" width="1160px" scrolling="true"/>
+<!-- http://localhost/#/views/ForecastvsActual_15748055309040/YTPMForecastvsActual_1-->
+
+</apex:page>
